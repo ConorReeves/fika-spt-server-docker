@@ -177,7 +177,7 @@ You can also force the install of a specific SPT version by supplying the `FORCE
 
 e.g
 ```
-FORCE_SPT_VERSION=4.0.1-40087-1eacf0f
+FORCE_SPT_VERSION=4.0.10-40087-1ba317d
 ```
 
 This will download the forced version release, and use that to update your server files.
@@ -323,5 +323,5 @@ The URL will look like `https://github.com/project-fika/Fika-Server/releases/dow
 # Server binary built using SPT Server 3.11.4 git tag, image tagged as fika-spt-server:latest
 # Downloads and validates Fika version v2.4.8
 
-VERSION=latest FIKA_VERSION=v2.4.8 SPT_SHA=3.11.4 ./build
+VERSION=latest FIKA_VERSION=v2.0.10 SPT_SHA=4.0.10-40087-1ba317d ./build
 ```
